@@ -1,0 +1,34 @@
+linear - accurate
+97.2222% (175/180)
+
+polynomial
+- degree 3 - accurate
+97.2222% (175/180)
+- degree 6 - not so accurate
+96.6667% (174/180)
+- degree 10 - not accurate
+88.8889% (160/180)
+
+radial basis function
+- gamma = 1/(128*120) - not accurate
+29.4444% (53/180)
+- gamma = 1 - not accurate
+5% (9/180)
+- gamma = 0.25 - not accurate
+5% (9/180)
+- gamma = 0.5 - not accurate
+5% (9/180)
+- gamma = 0.75 - not accurate
+5% (9/180)
+
+sigmoid
+- gamma = 1/(128*120) - not accurate
+5% (9/180)
+- gamma = 1 - not accurate
+5% (9/180)
+- gamma = 0.25 - not accurate
+5% (9/180)
+- gamma = 0.5 - not accurate
+5% (9/180)
+- gamma = 0.75 - not accurate
+5% (9/180)
